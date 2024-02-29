@@ -4,8 +4,6 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
-const movieRoute = require("./routes/movies");
-const listRoute = require("./routes/lists");
 const cors = require("cors");
 
 dotenv.config();
